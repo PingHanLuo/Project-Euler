@@ -3,4 +3,4 @@
 
 ### Javascript solutions
 =======================
-##### I've solved these solutions by faster algorithms mostly but I did not put them into functions as I hard coded the input
+##### I've solved these solutions fast and direct and I did not put them into functions. This would just require wrapping the solution in functions.
