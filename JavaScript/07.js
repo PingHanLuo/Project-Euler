@@ -1,3 +1,4 @@
+var primes = [];
 //start at 2
 var x=2;
 for(var i=0;i<10001;i++){
@@ -11,10 +12,11 @@ for(var i=0;i<10001;i++){
 }
 //test for prime
 function isPrime(n){
-	for(var i=n-1;i>1;i--){
-		if(n%i==0){
+	for(var i=0;i<primes.length;i++){
+		if(n%primes[i]==0){
 			return false;
 		}
 	}
+	primes.push(n);
 	return true;
 }
